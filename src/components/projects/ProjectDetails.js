@@ -13,6 +13,7 @@ const ProjectDetails = (props) => {
                     <span className="card-title">{ project.title }</span>
                     <p>{ project.content }</p>
                 </div>
+                {/* This is where it connects to firebase for the author's name */}
                     <div className="card-action grey lighten-4 grey-text">
                         <div>Posted by {project.authorFirstName} {project.authorLastName}</div>
                         <div>Today's Date</div>
